@@ -38,6 +38,7 @@ const Login = ({ login, isAuthenticated }) => {
             type="email"
             placeholder="Email Address"
             name="email"
+            id="email"
             value={email}
             onChange={e => onChange(e)}
             required
@@ -48,6 +49,7 @@ const Login = ({ login, isAuthenticated }) => {
             type="password"
             placeholder="Password"
             name="password"
+            id="password"
             value={password}
             onChange={e => onChange(e)}
             minLength="6"

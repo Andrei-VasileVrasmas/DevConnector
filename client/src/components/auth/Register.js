@@ -44,6 +44,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             type="text"
             placeholder="Name"
             name="name"
+            id="name"
             value={name}
             onChange={e => onChange(e)}
             required
@@ -54,6 +55,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             type="email"
             placeholder="Email Address"
             name="email"
+            id="email"
             value={email}
             onChange={e => onChange(e)}
             required
@@ -68,6 +70,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             type="password"
             placeholder="Password"
             name="password"
+            id="password"
             value={password}
             onChange={e => onChange(e)}
             minLength="6"
